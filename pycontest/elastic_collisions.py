@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def collision_1d(v1_i, v2_i, m1=1, m2=1):
     """ 1d elastic collisions
 

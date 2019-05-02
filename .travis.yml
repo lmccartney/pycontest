@@ -1,0 +1,10 @@
+language: python
+
+python:
+  - "3.6"
+
+install:
+  - pip install scipy numpy matplotlib hypothesis
+
+script:
+  - pytest -s -v tests/test_regression.py
